@@ -29,11 +29,11 @@ export const Hero: React.FC = () => {
 
           <div className="relative flex justify-center md:justify-end">
             <div className="w-full max-w-[420px] aspect-[4/5] relative rounded-2xl overflow-hidden shadow-2xl bg-gray-50">
-               <img 
-                 src="/jillian-hero.jpg" 
-                 alt="Jillian Rodak sitting on a couch" 
-                 className="absolute inset-0 w-full h-full object-cover"
-               />
+               <img
+  src="/JillRodak/jillian-hero.jpg"
+  alt="Jillian Rodak sitting on a couch"
+  // ... other classes
+/>
             </div>
             
             {/* Decorative background element */}
