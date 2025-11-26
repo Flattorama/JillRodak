@@ -7,12 +7,12 @@ export const About: React.FC = () => {
       <div className="grid md:grid-cols-2 gap-16 items-center">
         <div className="order-2 md:order-1 relative">
            <div className="w-full aspect-square bg-gray-50 rounded-2xl overflow-hidden shadow-lg relative">
-                <img
-                src="/JillRodak/jillian-about.jpg"
-                alt="Jillian Rodak"
-                // ... other classes
-                />
-            </div>
+  <img
+    src="/JillRodak/jillian-about.jpg"
+    alt="Jillian Rodak"
+    className="w-full h-full object-cover"
+  />
+</div>
             {/* Offset border effect */}
             <div className="absolute -z-10 bottom-6 left-6 w-full h-full border-2 border-blue-100 rounded-2xl translate-x-4 translate-y-4 hidden md:block"></div>
         </div>
