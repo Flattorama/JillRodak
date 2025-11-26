@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to Fresh Deploy
 
 on:
   push:
@@ -9,10 +9,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages-retry"  # <--- CHANGE THIS
-  cancel-in-progress: true
 
 jobs:
   build:
